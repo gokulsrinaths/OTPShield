@@ -176,7 +176,3 @@ OTPShield AI protects users by analyzing various aspects of incoming messages:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions, feedback, or partnership inquiries, please open an issue in the GitHub repository or contact us at support@otpshield.ai 
