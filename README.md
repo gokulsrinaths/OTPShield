@@ -1,178 +1,231 @@
-# OTPShield AI
+# OptiShield AI — AI-Powered Firewall for OTP Scam Prevention
 
-An intelligent mobile application designed to protect users from OTP (One-Time Password) fraud by analyzing incoming messages and identifying potentially malicious content with advanced AI-driven security features.
+<div align="center">
 
-## Core Features
+**🏆 3rd Place — Future of Business · Cal Poly Pomona AI for a Better Future Hackathon 2025**
+**Sponsored by Avanade & Databricks · 239 Students · 51 Teams · 60 Hours**
 
-- **Real-time Message Analysis**: Automatically scans incoming messages for OTP codes
-- **Threat Detection**: Uses AI to identify suspicious or fraudulent OTP requests
-- **Visual Indicators**: Clear color-coded system to identify secure, suspicious, and spam messages
-- **Detailed Analysis**: Provides comprehensive breakdown of why a message was flagged
-- **Sleek Modern Interface**: Dark mode UI with intuitive design
+[![React Native](https://img.shields.io/badge/React_Native-Expo-0EA5E9?logo=react)](https://expo.dev)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Platform](https://img.shields.io/badge/Platform-Android_%7C_iOS-lightgrey?logo=android)](https://reactnative.dev)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## Advanced Security Features
+**Team Trio**
+Gokul Srinath Seetha Ram · Rashmi Elavazhagan · Shreyas Chaudhary
 
-- **Machine Learning Model Integration**
-  - Neural network that learns from user feedback on message classification
-  - Regular updates with the latest phishing techniques and patterns
-  - Adaptive improvement based on regional fraud patterns
+</div>
 
-- **Behavioral Analysis**
-  - Tracks normal OTP request patterns for each user (time of day, frequency, services)
-  - Flags anomalies when requests deviate from established patterns
-  - Considers transaction amount thresholds when analyzing risk
+---
 
-- **Multi-factor Contextual Analysis**
-  - Cross-references incoming messages with recent app usage
-  - Validates if the user initiated an action that would trigger an OTP
-  - Checks if the OTP request aligns with the user's current activities
+## What Is OptiShield AI?
 
-## Enhanced User Experience
+OptiShield AI is a **mobile-first AI firewall** that protects users from OTP (One-Time Password) fraud in real time. It intercepts incoming SMS messages, analyses them using a multi-factor risk engine, and blocks fraudulent OTP requests before the user can act on them.
 
-- **Augmented Reality OTP Verification**
-  - Overlays security indicators when a user is about to input an OTP
-  - Visual cues show security status directly in the user's field of view
-  - Color-coded AR indicators show risk level without switching apps
+OTP fraud is one of the fastest-growing vectors of financial crime globally — a scammer sends a fake bank SMS, social-engineers the victim into sharing their OTP, and drains their account in seconds. OptiShield sits between your SMS inbox and your actions, giving every message a threat score before you see it.
 
-- **Proactive Security Notifications**
-  - Pre-emptive warnings about known scam campaigns
-  - Alerts about compromised services before receiving fraudulent messages
-  - Educational content about latest fraud techniques
+Built in 60 hours at the **Cal Poly Pomona "AI for a Better Future" Hackathon 2025** — themed *"Artificial Intelligence for All: Bridging Disciplines, Expanding Possibilities"* — and recognised as **3rd Place in the Future of Business category** out of 51 competing teams.
 
-- **Voice Assistant Integration**
-  - Verbal verification if a received OTP is legitimate
-  - Voice alerts for high-risk OTP messages when driving or otherwise occupied
-  - Command-based verification for accessibility support
+---
 
-## Technical Innovations
+## Hackathon Context
 
-- **Blockchain Verification**
-  - Distributed ledger of verified sender IDs
-  - Registration system for banks and service providers to verify legitimate sending numbers
-  - Cryptographic verification of message origin
+| Detail | Info |
+|--------|------|
+| **Event** | AI for a Better Future Hackathon & Fair 2025 |
+| **Host** | Cal Poly Pomona — College of Business Administration |
+| **Sponsors** | Avanade (Platinum) · Databricks |
+| **Challenge** | Future of Business |
+| **Placement** | 🥉 3rd Place |
+| **Team** | Trio — Gokul Srinath Seetha Ram, Rashmi Elavazhagan, Shreyas Chaudhary |
+| **Duration** | 60 hours |
+| **Scale** | 239 students · 51 teams · 7 challenge categories |
+| **Judges** | Jeff Farinich · Rob Leach · Jason James · Johans Acosta · Molly Strawn-Carreño |
 
-- **Offline Protection Mode**
-  - Cached security rules for operation without internet connectivity
-  - Local analysis capabilities that don't require server communication
-  - Emergency blocking system works even without data connection
+> *"AI is transforming the future of work."* — Rob Leach, Global Microsoft Executive & General Manager, Avanade (Keynote Speaker)
 
-- **End-to-End Encryption**
-  - Secure analysis data with client-side encryption
-  - Zero-knowledge proof system to verify messages without exposing content
-  - Private secure enclave for storing sensitive OTP information
+---
 
-## Advanced User Controls
+## The Problem
 
-- **Custom Security Profiles**
-  - Different security levels for various activities (banking, social media, gaming)
-  - Scheduled heightened security during travel or high-risk periods
-  - Family protection mode for elderly relatives or children
+Every year, millions of people fall victim to OTP fraud:
 
-- **Financial Institution Integration**
-  - Direct API connections to banking partners
-  - Real-time verification of legitimate banking communications
-  - Automated reporting of fraud attempts to financial institutions
+- A scammer impersonates your bank via SMS
+- They create urgency: *"Your account will be suspended — verify with OTP immediately"*
+- The victim, panicked, shares their OTP
+- The account is drained in seconds
 
-- **Self-Destruct OTPs**
-  - Single-use display codes that disappear after viewing
-  - Auto-clearing clipboard after OTP usage
-  - Timed invalidation of stored OTPs
+Existing solutions require technical literacy or rely on after-the-fact fraud detection. **OptiShield acts before the user responds** — scoring every incoming message in real time and blocking high-risk OTPs automatically.
 
-## Commercial Extensions
+---
 
-- **Enterprise Solution**
-  - Centralized dashboard for corporate security teams
-  - Company-wide security policies and reporting
-  - Integration with corporate identity management systems
+## How It Works
 
-- **White-Label Options**
-  - Branded versions for banks to offer to their customers
-  - Customization options for different industries
-  - API for integration with existing security systems
-
-- **Premium Security Tiers**
-  - Basic free protection for essential services
-  - Premium tier with advanced features and financial protection guarantee
-  - Enterprise tier with dedicated security support
-
-## Development Roadmap
-
-**Phase 1: Foundation (Current)**
-- Basic message analysis and classification
-- Visual UI with security indicators
-- Local protection features
-
-**Phase 2: Advanced Intelligence**
-- Machine learning model implementation
-- Behavioral analysis engine
-- Partner integrations with major banks
-
-**Phase 3: Ecosystem Development**
-- Cross-platform expansion (desktop, browser extensions)
-- Developer API for third-party integration
-- Global threat intelligence network
-
-**Phase 4: Enterprise & Commercial**
-- Enterprise management console
-- Compliance reporting features
-- White-label solutions
-
-## Technologies Used
-
-- React Native
-- Expo
-- React Navigation
-- Linear Gradient
-- Custom Animations
-- Machine Learning (TensorFlow.js)
-- Blockchain integration
-- AR Kit / AR Core
-- Voice recognition APIs
-
-## Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/yourusername/otpshield-ai.git
-cd otpshield-ai
+```
+Incoming SMS
+     │
+     ▼
+┌─────────────────────────────────────────────┐
+│           OTP Extraction Engine             │
+│   Regex patterns detect 4–8 digit codes     │
+│   with contextual clues (OTP, code, verify) │
+└────────────────────┬────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────┐
+│         Multi-Factor Risk Scorer            │
+│                                             │
+│  Sender Risk     — trusted ID whitelist     │
+│  Message Risk    — phishing keyword scan    │
+│  Frequency Risk  — too many OTPs = suspect  │
+│  Location Risk   — unusual geography flag   │
+│  Time Risk       — night-time OTPs flagged  │
+│                                             │
+│  Risk Score = weighted sum (0.0 → 1.0)      │
+└────────────────────┬────────────────────────┘
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+    Score > 0.5            Score ≤ 0.5
+          │                     │
+          ▼                     ▼
+    🔴 BLOCKED            🟢 SAFE
+    Reason shown          OTP verified
 ```
 
-2. Install dependencies
-```bash
-npm install
-```
+---
 
-3. Start the application
-```bash
-npm start
-```
+## Risk Scoring Model
 
-4. Scan the QR code with the Expo Go app on your mobile device or run on an emulator
+The core detection engine (`MessageService.js`, `helpers.js`) computes a composite risk score from five independent signals:
+
+| Signal | Weight | Trigger |
+|--------|--------|---------|
+| **Sender Risk** | +0.50 | Sender ID not in trusted whitelist (HDFCBK, SBIBANK, ICICI, AXISBK, etc.) |
+| **Message Risk** | up to +0.30 | Phishing keywords: `urgent`, `click`, `share otp`, `account locked`, `suspended`, `bit.ly` URLs |
+| **Frequency Risk** | up to +0.30 | Multiple OTP requests in a short window |
+| **Location Risk** | +0.20 | Geolocation flagged as unusual for the user |
+| **Time Risk** | +0.10 | OTP received between midnight and 6 AM |
+
+**Threshold:** `riskScore > 0.5` → message blocked. Final score capped at 1.0.
+
+### Phishing Classification (`classifyMessage`)
+
+Beyond the risk score, every message goes through a dedicated phishing classifier:
+
+- **Keyword matching** — 14 high-signal phrases including `"send your otp"`, `"verify account"`, `"claim"`, `"win"`
+- **URL detection** — regex catches `bit.ly`, `tinyurl`, `goo.gl`, and raw HTTP links
+- **OTP-sharing requests** — regex catches any message asking the user to *send/share/provide/give* a code or PIN (+3 weight)
+- **Trusted sender check** — known bank sender IDs reduce phishing confidence
+
+---
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **Real-Time Message Analysis** | Every incoming message is scored and classified before display |
+| **OTP Extraction** | Regex engine detects 4–8 digit OTPs with contextual awareness |
+| **Trusted Sender Whitelist** | HDFCBK, SBIBANK, ICICI, AXISBK, YESBNK, Netflix, Amazon, Uber, Swiggy |
+| **Risk Score Breakdown** | Drill-down modal shows per-component score (sender, message, frequency, location, time) |
+| **Colour-Coded Indicators** | Green (safe) · Yellow (suspicious) · Red (blocked) |
+| **Message History** | Scrollable inbox with analysis status on every message |
+| **Analysis History Tab** | Track all previous risk assessments in one view |
+| **Dark Mode UI** | Full dark theme with animated shield logo and gradient accents |
+| **Simulation Mode** | Built-in message generator with 50/50 mix of legitimate and scam templates for demo purposes |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Framework** | React Native 0.73 + Expo |
+| **Navigation** | React Navigation (Stack + Tab) |
+| **UI Components** | `expo-linear-gradient`, `@expo/vector-icons` (MaterialIcons, Ionicons) |
+| **Animations** | React Native `Animated` API |
+| **Location** | `expo-location` |
+| **OTP Detection** | Custom regex engine |
+| **Risk Scoring** | Rule-based multi-factor model |
+
+---
 
 ## Project Structure
 
-- `/src` - Source code
-  - `/screens` - Main application screens
-  - `/components` - Reusable UI components
-  - `/services` - Business logic services
-  - `/utils` - Utility functions
-  - `/ml` - Machine learning models and training data
-  - `/ar` - Augmented reality components
-  - `/blockchain` - Distributed ledger verification system
-  - `/api` - External API integrations
+```
+OTPShield/
+├── App.js                          ← Root navigator
+├── src/
+│   ├── screens/
+│   │   ├── HomeScreen.js           ← Main inbox + analysis modal
+│   │   └── SettingsScreen.js       ← User preferences
+│   ├── components/
+│   │   ├── MessageList.js          ← Scrollable message feed
+│   │   ├── MessageItem.js          ← Single message card with risk indicator
+│   │   └── AnalysisResult.js       ← Risk breakdown modal component
+│   ├── services/
+│   │   └── MessageService.js       ← Core: analysis, classification, history
+│   └── utils/
+│       ├── helpers.js              ← OTP extractor, risk scorer, classifier
+│       └── SplashGenerator.js      ← Splash screen utility
+├── assets/
+│   └── splash.png
+└── app.json                        ← Expo config
+```
 
-## Security Features
+---
 
-OTPShield AI protects users by analyzing various aspects of incoming messages:
+## Getting Started
 
-- Sender identification and verification
-- Pattern recognition for fraudulent messages
-- Contextual analysis of message content
-- Risk scoring based on multiple factors
-- Behavioral anomaly detection
-- Real-time threat intelligence
-- Blockchain-verified sender registry
+### Prerequisites
+- Node.js 18+
+- Expo CLI (`npm install -g expo-cli`)
+- Expo Go app on your phone, or an Android/iOS emulator
+
+### Install & Run
+
+```bash
+git clone https://github.com/gokulsrinaths/OTPShield.git
+cd OTPShield
+npm install
+npx expo start
+```
+
+Scan the QR code with **Expo Go** on your phone, or press `a` for Android emulator / `i` for iOS simulator.
+
+---
+
+## Demo Flow
+
+1. Launch the app — the home screen shows a live stream of incoming messages
+2. Tap any message to trigger analysis
+3. The risk scorer runs in real time and returns a score with full breakdown
+4. Messages above the 0.5 threshold are marked **BLOCKED** in red with the specific reason
+5. Safe messages from trusted senders pass through in green
+6. Switch to the **History** tab to review all past analyses
+
+---
+
+## Award
+
+**🥉 3rd Place — Future of Business Category**
+**Cal Poly Pomona AI for a Better Future Hackathon 2025**
+
+Hosted by the Mitchell C. Hill Center for Digital Innovation, College of Business Administration, Cal Poly Pomona. Sponsored by **Avanade** (co-founded by CBA alumnus Mitchell C. Hill) and **Databricks**.
+
+Evaluated on creativity, real-world impact, feasibility, and storytelling by industry judges from Avanade and Microsoft.
+
+---
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT — free to use, modify, and build on.
+
+---
+
+<div align="center">
+
+*Built in 60 hours at the Cal Poly Pomona AI for a Better Future Hackathon 2025*
+
+**Team Trio** — Gokul Srinath Seetha Ram · Rashmi Elavazhagan · Shreyas Chaudhary
+
+</div>
