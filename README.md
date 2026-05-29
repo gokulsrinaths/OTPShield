@@ -1,4 +1,4 @@
-# OptiShield AI — AI-Powered Firewall for OTP Scam Prevention
+# OTP Shield — AI-Powered Firewall for OTP Scam Prevention
 
 <div align="center">
 
@@ -13,15 +13,17 @@
 **Team Trio**
 Gokul Srinath Seetha Ram · Rashmi Elavazhagan · Shreyas Chaudhary
 
+[🎥 Watch Demo](https://www.youtube.com/watch?v=pWo-e7Ve1Hk) · [🏆 Official Winners Announcement](https://www.cpp.edu/cba/news/ai-for-a-better-future-cal-poly-pomona-hosts-transformative-hackathon-and-ai-fair.shtml)
+
 </div>
 
 ---
 
-## What Is OptiShield AI?
+## What Is OTP Shield?
 
-OptiShield AI is a **mobile-first AI firewall** that protects users from OTP (One-Time Password) fraud in real time. It intercepts incoming SMS messages, analyses them using a multi-factor risk engine, and blocks fraudulent OTP requests before the user can act on them.
+OTP Shield is a **mobile-first AI firewall** that protects users from OTP (One-Time Password) fraud in real time. It intercepts incoming SMS messages, analyses them using a multi-factor risk engine, and blocks fraudulent OTP requests before the user can act on them.
 
-OTP fraud is one of the fastest-growing vectors of financial crime globally — a scammer sends a fake bank SMS, social-engineers the victim into sharing their OTP, and drains their account in seconds. OptiShield sits between your SMS inbox and your actions, giving every message a threat score before you see it.
+OTP fraud is one of the fastest-growing vectors of financial crime globally — a scammer sends a fake bank SMS, social-engineers the victim into sharing their OTP, and drains their account in seconds. OTP Shield sits between your SMS inbox and your actions, giving every message a threat score before you see it.
 
 Built in 60 hours at the **Cal Poly Pomona "AI for a Better Future" Hackathon 2025** — themed *"Artificial Intelligence for All: Bridging Disciplines, Expanding Possibilities"* — and recognised as **3rd Place in the Future of Business category** out of 51 competing teams.
 
@@ -54,7 +56,7 @@ Every year, millions of people fall victim to OTP fraud:
 - The victim, panicked, shares their OTP
 - The account is drained in seconds
 
-Existing solutions require technical literacy or rely on after-the-fact fraud detection. **OptiShield acts before the user responds** — scoring every incoming message in real time and blocking high-risk OTPs automatically.
+Existing solutions require technical literacy or rely on after-the-fact fraud detection. **OTP Shield acts before the user responds** — scoring every incoming message in real time and blocking high-risk OTPs automatically.
 
 ---
 
@@ -205,7 +207,7 @@ Scan the QR code with **Expo Go** on your phone, or press `a` for Android emulat
 
 ---
 
-## Award
+## Award & Press
 
 **🥉 3rd Place — Future of Business Category**
 **Cal Poly Pomona AI for a Better Future Hackathon 2025**
@@ -213,6 +215,13 @@ Scan the QR code with **Expo Go** on your phone, or press `a` for Android emulat
 Hosted by the Mitchell C. Hill Center for Digital Innovation, College of Business Administration, Cal Poly Pomona. Sponsored by **Avanade** (co-founded by CBA alumnus Mitchell C. Hill) and **Databricks**.
 
 Evaluated on creativity, real-world impact, feasibility, and storytelling by industry judges from Avanade and Microsoft.
+
+| | |
+|---|---|
+| **🎥 Demo Video** | [Watch on YouTube](https://www.youtube.com/watch?v=pWo-e7Ve1Hk) |
+| **🏆 Official Announcement** | [Cal Poly Pomona — AI for a Better Future](https://www.cpp.edu/cba/news/ai-for-a-better-future-cal-poly-pomona-hosts-transformative-hackathon-and-ai-fair.shtml) |
+
+> *Listed under "Future of Business — 3rd Place: OptiShield AI - AI Powered Firewall for OTP Scam Prevention, Team: Trio"* on the official Cal Poly Pomona winners page. *(Note: the official listing uses an alternate spelling — the project name is OTP Shield.)*
 
 ---
 
@@ -227,5 +236,7 @@ MIT — free to use, modify, and build on.
 *Built in 60 hours at the Cal Poly Pomona AI for a Better Future Hackathon 2025*
 
 **Team Trio** — Gokul Srinath Seetha Ram · Rashmi Elavazhagan · Shreyas Chaudhary
+
+[🎥 Demo](https://www.youtube.com/watch?v=pWo-e7Ve1Hk) · [🏆 Official Announcement](https://www.cpp.edu/cba/news/ai-for-a-better-future-cal-poly-pomona-hosts-transformative-hackathon-and-ai-fair.shtml)
 
 </div>
